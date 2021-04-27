@@ -1,4 +1,4 @@
-package random
+package skitty
 
 func ChoiceString(choice []string) {
 

@@ -1,4 +1,4 @@
-package itertools
+package skitty
 
 import (
 	"errors"
