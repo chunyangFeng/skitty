@@ -47,7 +47,7 @@ func stepZeroError(step int) error {
 
 func generateNumber(min, max, step int) []int {
 	length := math.Abs(float64(max-min)) + 1
-	arraySlice := make([]int, length, length*2)
+	arraySlice := make([]int, int(length), int(length)*2)
 
 	if step > 0 {
 		for i := min; i <= max; i += step {
